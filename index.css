@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  position:fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #3F3274;
+  color: white;
+  padding: 20px;
+  background: linear-gradient(to bottom, #2c1a4f, #000);
+  
+}
+.sidebar h2 {
+  margin: 0;
+  font-size: 24px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+nav ul li {
+  margin: 15px 0;
+}
+nav ul li a {
+  color: #b0a9c3;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+}
+nav ul li a:hover, nav ul li a.active {
+  font-weight: bold;
+  color: yellow;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+main {
+  flex: 1;
+  background-color: black;
+  color: white;
+  margin-left: 290px;
+}
+
+section { 
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+#Acc {
+  height: 25%;
+  padding-top: 200px;
+  padding-left: 20px;
+  align-items:baseline;
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  background: linear-gradient(to bottom, black, #3F3274);
+}
+
+.Acc p{
+  align-items: end;
+}
+
+#Moi {
+  height: 50%;
+  font-style: italic;
+  color:black;
+  background: linear-gradient(to bottom, #3F3274, black);
+}
+
+#parcours {
+  height: 50%;
+  font-style: italic;
+  background: linear-gradient(to bottom, black, #3F3274);
+}
+
+#stages {
+  height: 50%;
+  font-style: italic;
+  background: linear-gradient(to bottom, #3F3274, black);
+}
+
+#competences {
+  height: 50%;
+  font-style: italic;
+  background: linear-gradient(to bottom, black, #3F3274);
+}
+
+
+#profil {
+  height: 50%;
+  font-style: italic;
+  background: linear-gradient(to bottom, #3F3274, black);
+}
+
+#projets {
+  height: 50%;
+  font-style: italic;
+  background: linear-gradient(to bottom, black, #3F3274);
+}
+
+#contact {
+  height: 50%;
+  font-style: italic;
+  background: linear-gradient(to bottom, #3F3274, black);
+}
+
+#documentation {
+  height: 50%;
+  margin-left: 270px;
+  padding: 20px;
+  background: linear-gradient(to bottom, black, #3F3274);
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #220022;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border: 2px solid #d4a5ff;
+}
+.card h2 {
+  color: #d4a5ff;
+}
+.btn {
+  display: inline-block;
+  background: #6a0dad;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+

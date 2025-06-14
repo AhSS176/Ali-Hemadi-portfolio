@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentations</title>
+    <style>
+        body {
+            background-color: #1a001a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .sidebar {
+            background: linear-gradient(to bottom, #3a003a, #000000);
+            width: 250px;
+            height: 100vh;
+            padding: 20px;
+            position: fixed;
+            color: #fff;
+        }
+        .sidebar h1 {
+            color: #d4a5ff;
+        }
+        .sidebar a {
+            display: block;
+            color: #d4a5ff;
+            text-decoration: none;
+            padding: 10px 0;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #220022;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            border: 2px solid #d4a5ff;
+        }
+        .card h2 {
+            color: #d4a5ff;
+        }
+        .btn {
+            display: inline-block;
+            background: #6a0dad;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Ali Hemadi</h1>
+        <a href="#">Accueil</a>
+        <a href="#">Moi</a>
+        <a href="#">Parcours</a>
+        <a href="#">Stages</a>
+        <a href="#">Compétences</a>
+        <a href="#">Documentations</a>
+        <a href="#">Projets</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="content">
+        <h2>- Documentations 📄</h2>
+        <p><em>Mes documentations en systèmes et réseaux.</em></p>
+        <div class="card-container">
+            <div class="card">
+                <h2>Installation de Debian 12.1.0</h2>
+                <a href="#" class="btn">Détails</a>
+            </div>
+            <div class="card">
+                <h2>Installation et Configuration de SSH</h2>
+                <a href="#" class="btn">Détails</a>
+            </div>
+            <div class="card">
+                <h2>Installation de GLPI sur Debian</h2>
+                <a href="#" class="btn">Détails</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
